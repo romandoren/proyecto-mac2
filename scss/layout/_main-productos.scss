@@ -1,0 +1,89 @@
+
+main{
+    section{
+        margin-bottom: 80px;
+    }
+}
+.menu{
+    display: grid;
+    width: 576px;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    "menu-menu1"
+    "menu-menu2"
+    "menu-menu3"
+    "menu-menu4"
+    "menu-menu5"
+    "menu-menu6"
+    "menu-menu7"
+    "menu-menu8"
+    ;
+    }
+    .titulo-main {
+        font-size: 35px;
+        margin-left: 30px;
+      }
+      
+      .menu-menu1 {
+        @include menu-prop;
+        grid-area: menu-menu1;
+      }
+      
+      .menu-menu2 {
+        @include menu-prop;
+        grid-area: menu-menu2;
+      }
+      
+      .menu-menu3 {
+        @include menu-prop;
+        grid-area: menu-menu3; }
+      
+      .menu-menu4 {
+        @include menu-prop;
+        grid-area: menu-menu4;
+      }
+      
+      .menu-menu5 {
+        @include menu-prop;
+        grid-area: menu-menu5;
+      }
+      
+      .menu-menu6 {
+        @include menu-prop;
+        grid-area: menu-menu6;
+      }
+      
+      .menu-menu7 {
+        @include menu-prop;
+        grid-area: menu-menu7;
+      }
+      
+      .menu-menu8 {
+        @include menu-prop;
+        grid-area: menu-menu8;
+      }
+      
+      .shop {
+        
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 16px;
+        align-items: center;
+        font-size: larger;
+        font-family: "Inter Tight", sans-serif;
+        font-weight: 700;
+      }
+      
+      .shop-imagen {
+        width: 30px;
+        height: 30px;
+
+        &:hover{
+          width: 40px;
+          height: 40px;
+        }
+      }

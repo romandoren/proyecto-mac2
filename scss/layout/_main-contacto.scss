@@ -1,0 +1,48 @@
+.contacto{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  width: 550px;
+  height: 800px;
+  border-radius: 20px;
+  padding: 60px;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  margin: 40px 40px 40px 40px;
+  grid-area: formulario;
+
+.formulario-item{
+    margin: 20px 20px 20px 20px;
+    font-size: 20px;
+
+.input{
+    background: #ffffff;
+padding: 10px;
+padding-left: 20px;
+height: 50px;
+font-size: 14px;
+border-radius: 25px;
+box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.coment{
+    background: #ffffff;
+    padding: 10px;
+    padding-left: 20px;
+    height: 100px;
+    font-size: 14px;
+    border-radius: 30px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+}
+}
+}

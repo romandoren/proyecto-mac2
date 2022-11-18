@@ -1,0 +1,19 @@
+.nosotros-principal{
+    font-size: larger;
+    
+}
+.articulo1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.articulo1-imagen{
+    width: 0;
+    height: 0;
+}
+
+.articulo1-texto{
+    justify-self: center;
+    align-self: center;
+}

@@ -1,0 +1,17 @@
+@mixin menu-prop {
+    background-color: rgb(255, 188, 13,);
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    box-shadow: -20px 20px 10px -6px rgb(151, 146, 146);
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin grid-prop ($colums,$rows){
+
+    grid-template-columns:$colums ;
+    grid-template-rows: $rows;
+}

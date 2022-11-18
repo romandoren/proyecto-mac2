@@ -1,0 +1,152 @@
+@media (min-width:1580px){
+
+    .contenedor{
+        width: 1600px;
+        height: 35vh ;
+        @include grid-prop(repeat(10,1fr),repeat(5,1fr));
+        grid-template-areas: 
+        "box-1 box-1 box-1 box-1 box-3 box-3 box-3 box-3 box-3 box-3"
+        "box-1 box-1 box-1 box-1 box-3 box-3 box-3 box-3 box-3 box-3"
+        "box-1 box-1 box-1 box-1 box-3 box-3 box-3 box-3 box-3 box-3"
+        "box-2 box-2 box-2 box-2 box-3 box-3 box-3 box-3 box-3 box-3"
+        "box-2 box-2 box-2 box-2 box-3 box-3 box-3 box-3 box-3 box-3"
+        
+
+        ;
+    }
+    header img{
+        width: 125px;
+        height: 125px;
+    }
+    .box-1{
+        padding-top: 25px;
+
+    }
+    .box-2{
+
+    }
+    .box-3{
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom:45px; }
+
+
+
+.bar{
+    list-style: none;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row-reverse; 
+    gap: 30px;
+    
+    
+    
+}
+.box-2 h1{
+    font-size: 70px;
+}
+.redes{
+    height:200px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 188, 13);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Inter Tight', sans-serif;
+    .imagen-redes1{
+        height: 50%;
+        width: auto;
+    }
+    
+    }
+    
+.redes2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    margin-right: 30px;
+    width: 100%;
+    .imagen-redes2{
+        height: 40px;
+        width: 120px;
+    } 
+
+}
+
+.redes3{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: solid grey;
+    border-width: 1px;
+    width: 100%;
+    .imagen-redes3{
+        height: 30px;
+        width: 30;
+    }
+}
+
+.button-ap {
+    height: 40px;
+    width: 180px;
+    font-size: 17px;
+    color: black;
+  
+    &:hover {
+      background-color: rgb(223, 227, 230);
+    } }
+
+
+.menu{
+    display: grid;
+    width: 1580px;
+    @include grid-prop(repeat(4,1fr),repeat(2,1fr));
+    grid-template-areas: 
+    "menu-menu1 menu-menu2 menu-menu3 menu-menu4"
+    "menu-menu5 menu-menu6 menu-menu7 menu-menu8"
+    ;
+    }
+   
+    .menu-menu1 {
+        @include menu-prop;
+        grid-area: menu-menu1;
+      }
+      
+      .menu-menu2 {
+        @include menu-prop;
+        grid-area: menu-menu2;
+      }
+      
+      .menu-menu3 {
+        @include menu-prop;
+        grid-area: menu-menu3; }
+      
+      .menu-menu4 {
+        @include menu-prop;
+        grid-area: menu-menu4;
+      }
+      
+      .menu-menu5 {
+        @include menu-prop;
+        grid-area: menu-menu5;
+      }
+      
+      .menu-menu6 {
+        @include menu-prop;
+        grid-area: menu-menu6;
+      }
+      
+      .menu-menu7 {
+        @include menu-prop;
+        grid-area: menu-menu7;
+      }
+      
+      .menu-menu8 {
+        @include menu-prop;
+        grid-area: menu-menu8;
+      }
+    
+    }
